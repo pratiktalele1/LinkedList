@@ -64,8 +64,8 @@ public class ProblemMain {
 		uc7.addNode(70);
 		uc7.printList();
 		uc7.search(30);
-		
-		// search element
+
+		// insert element
 		System.out.println("insert after 30 -");
 		UC8 uc8 = new UC8();
 		uc8.addNode(56);
@@ -74,7 +74,18 @@ public class ProblemMain {
 		uc8.printList();
 		uc8.insertAfter(40);
 		uc8.printList();
-		
 
+		// delete element 40
+		System.out.println("remove 40 -");
+		UC9 uc9 = new UC9();
+		uc9.addNode(56);
+		uc9.addNode(30);
+		uc9.addNode(70);
+		uc9.insertAfter(40);
+		uc9.printList();
+		uc9.size();
+		uc9.deleteAfter(40);
+		uc9.printList();
+		uc9.size();
 	}
 }
