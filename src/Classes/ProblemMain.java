@@ -25,5 +25,15 @@ public class ProblemMain {
 		uc3.addNode(30);
 		uc3.addNode(70);
 		uc3.printList();
+		
+		//appending data
+		System.out.println("appending in between data -");
+		UC4 uc4=new UC4();
+		uc4.addNode(56);
+		uc4.addNode(70);
+		uc4.printList();
+		//inserting data inbetween
+		uc4.insertInBetween(30);
+		uc4.printList();
 	}
 }
