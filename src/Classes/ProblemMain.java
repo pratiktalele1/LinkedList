@@ -45,9 +45,8 @@ public class ProblemMain {
 		uc5.printList();
 		uc5.deleteHead();
 		uc5.printList();
-		
-		
-		//delete last element
+
+		// delete last element
 		System.out.println("removing last element -");
 		UC6 uc6 = new UC6();
 		uc6.addNode(56);
@@ -56,6 +55,16 @@ public class ProblemMain {
 		uc6.printList();
 		uc6.deleteLast();
 		uc6.printList();
+
+		// search element
+		System.out.println("Search element -");
+		UC7 uc7 = new UC7();
+		uc7.addNode(56);
+		uc7.addNode(30);
+		uc7.addNode(70);
+		uc7.printList();
+		uc7.search(30);
+		
 
 	}
 }
