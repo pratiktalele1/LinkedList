@@ -87,5 +87,16 @@ public class ProblemMain {
 		uc9.deleteAfter(40);
 		uc9.printList();
 		uc9.size();
+		
+		//sorting list
+		System.out.println("sorting list -");
+		UC10 uc10 = new UC10();
+		uc10.addNode(56);
+		uc10.addNode(30);
+		uc10.addNode(40);
+		uc10.addNode(70);
+		uc10.printList();
+		uc10.sortList();
+		uc10.printList();
 	}
 }
