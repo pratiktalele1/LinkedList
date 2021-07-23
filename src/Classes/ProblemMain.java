@@ -65,6 +65,16 @@ public class ProblemMain {
 		uc7.printList();
 		uc7.search(30);
 		
+		// search element
+		System.out.println("insert after 30 -");
+		UC8 uc8 = new UC8();
+		uc8.addNode(56);
+		uc8.addNode(30);
+		uc8.addNode(70);
+		uc8.printList();
+		uc8.insertAfter(40);
+		uc8.printList();
+		
 
 	}
 }
