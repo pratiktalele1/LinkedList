@@ -1,19 +1,16 @@
 package Classes;
 
-public class UC1 {
+public class UC2 {
 	Node head;
 
-	//adding at last
+	//adding at start
 	public void addNode(int data) {
 		Node node = new Node(data);
 		if (head == null) {
 			head = node;
 		} else {
-			Node temp = head;
-			while (temp.next != null) {
-				temp = temp.next;
-			}
-			temp.next = node;
+			node.next = head;
+			head = node;
 		}
 	}
 	
@@ -26,4 +23,5 @@ public class UC1 {
 		}
 		System.out.println("");
 	}
+
 }
