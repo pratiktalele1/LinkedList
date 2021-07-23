@@ -17,5 +17,13 @@ public class ProblemMain {
 		uc2.addNode(30);
 		uc2.addNode(56);
 		uc2.printList();
+		
+		//appending data
+		System.out.println("appending data -");
+		UC3 uc3=new UC3();
+		uc3.addNode(56);
+		uc3.addNode(30);
+		uc3.addNode(70);
+		uc3.printList();
 	}
 }
