@@ -17,22 +17,23 @@ public class UC8 {
 	}
 
 	// inserting data in between
-	public void insertAfter(int data) {
+	public int insertAfter(int data) {
 		Node node = new Node(data);
-
+		int flag = 0;
 		Node temp = head;
 		Node prev = head;
 		while (temp != null) {
 			prev = temp;
 			temp = temp.next;
 			if (prev.data == 30) {
-				prev.next=node;
-				node.next=temp;
+				prev.next = node;
+				node.next = temp;
+				flag = 1;
 				break;
 			}
 
 		}
-
+		return flag;
 	}
 
 	// list printing
