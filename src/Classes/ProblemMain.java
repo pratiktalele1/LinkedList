@@ -36,7 +36,7 @@ public class ProblemMain {
 		uc4.insertInBetween(30);
 		uc4.printList();
 
-		// delete head
+		// delete head element
 		System.out.println("removing first element -");
 		UC5 uc5 = new UC5();
 		uc5.addNode(56);
@@ -45,5 +45,17 @@ public class ProblemMain {
 		uc5.printList();
 		uc5.deleteHead();
 		uc5.printList();
+		
+		
+		//delete last element
+		System.out.println("removing last element -");
+		UC6 uc6 = new UC6();
+		uc6.addNode(56);
+		uc6.addNode(30);
+		uc6.addNode(70);
+		uc6.printList();
+		uc6.deleteLast();
+		uc6.printList();
+
 	}
 }
